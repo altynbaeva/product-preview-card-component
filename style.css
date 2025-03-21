@@ -94,6 +94,10 @@ body {
     align-self: center;
 }
 
+.add:active {
+    background-color: hsl(158, 42%, 18%);
+}
+
 .cart-img {
     display: block;
     margin-right: 5px;
