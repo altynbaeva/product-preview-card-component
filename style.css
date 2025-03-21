@@ -16,8 +16,6 @@ body {
 
 .article-content {
     width: 600px;
-    display: flex;
-    justify-content: center;
     background-color: hsl(0, 0%, 100%);
     margin: 0 auto;
     border-radius: 10px;
@@ -116,4 +114,28 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 767px) {
+    .article-content {
+        background-image: url("images/image-product-mobile.jpg");
+        width: 300px;
+    }
+
+    .card-description {
+        margin-left: 0;
+        margin-top: 50%;
+        height: 340px;
+        justify-content: flex-end;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-features {
+        font-size: 12px;
+    }
 }
